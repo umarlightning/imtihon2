@@ -16,19 +16,16 @@
   flex-direction: column;
 }
 
-.logo-active {
+.footer__link {
   position: relative;
 
-  &:hover {
-    opacity: 0.8;
-  }
 
   &:active {
     opacity: 0.6;
   }
 }
 
-.articles__logo {
+.footer__logo {
   list-style-type: none;  
   position: relative;
 

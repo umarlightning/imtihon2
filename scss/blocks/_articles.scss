@@ -48,7 +48,7 @@
   color: #949494;
 }
 
-.text-second{
+.text-second {
   padding-bottom: 25px;
 }
 
@@ -60,6 +60,16 @@
   text-decoration: none;
   line-height: 21px;
   color: #333333;
+
+  &:hover {
+    color: #FFBD54;
+  }
+
+  &:active {
+    color: #333333;
+    opacity: 0.6;
+  }
+
 
 
   &::before {
