@@ -1,0 +1,81 @@
+.follow {
+  background-image: url("../images/dog-bckg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 108px;
+}
+
+.follow__container {
+  margin: 0 auto;
+  max-width: 1350px;
+  width: 100%;
+}
+
+.follow__inner {
+  position: relative;
+  max-width: 1400px;
+  padding-left: 281px;
+
+  &::before {
+    position: absolute;
+    background-image: url("../../images/kisspng-dog.png");
+    background-repeat: no-repeat;
+    background-position: calc(50% + 10px);
+    top: -100px;
+    left: 750px;
+    width: 613px;
+    height: 481px;
+    content: "";
+  }
+}
+
+
+.follow__title {
+  width: 500px;
+  font-weight: 700;
+  font-size: 48px;
+  padding-top: 90px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.follow__email {
+  width: 335px;
+  height: 50px;
+  background-color: #FFFFFF;
+  appearance: none;
+  border-radius: 5px;
+  margin-right: 21px;
+  padding-left: 22px;
+  border: none;
+
+
+  &:hover {
+    appearance: #FFBD54;
+    border: 2px solid #FFBD54;
+
+    &::placeholder {
+      opacity: 0.7;
+    }
+  }
+
+
+  &:invalid {
+    border: 2px solid #DC4D41;
+    color: #DC4D41;
+    border: none;
+    appearance: none;
+  }
+}
+
+.follow__button {
+  padding: 14px 53px 14px 51px;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+  line-height: 21px;
+  color: #FFFFFF;
+  background-color: #333333;
+  border-radius: 3px;
+  appearance: none;
+}

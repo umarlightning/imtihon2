@@ -1,0 +1,85 @@
+.feedback {
+  margin-bottom: 234px;
+}
+
+.feedback__container {
+  margin: 0 auto;
+  max-width: 1350px;
+  width: 100%;
+}
+
+.iframe-wrapper {
+  position: relative;
+  display: flex;
+  background-color: #333333;
+  background-image: url("../images/baliq-bckg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: calc(50% + 200px) calc(50% + 00px);
+
+
+  &::after {
+    position: absolute;
+    background-image: url("../../images/baliqozi.png");
+    background-repeat: no-repeat;
+    top: 140px;
+    right: 5px;
+    width: 420px;
+    height: 418px;
+    content: "";
+  }
+}
+
+.feedback__inner {
+  width: 360px;
+  margin-left: 150px;
+
+}
+
+.feedback__title {
+  margin: 62px 0 14px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 62px;
+  color: #FFFFFF;
+
+}
+
+.feedback__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  width: 375px;
+  height: 50px;
+  background-color: #FFFFFF;
+  margin-bottom: 14px;
+  border-radius: 0px;
+
+  &::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #949494;
+  }
+}
+
+.textarea-input {
+  height: 165px;
+}
+
+.submit {
+  padding: 15px 50px;
+  font-weight: 500;
+  margin-bottom: 74px;
+  font-size: 16px;
+  line-height: 21px;
+  background-color: #FFBD54;
+  border: none;
+  color: #FFFFFF;
+}
