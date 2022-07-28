@@ -13,8 +13,8 @@
 .services__list {
   display: flex;
   justify-content: space-between;
-  padding: 0 30px;
   margin-block-end: 0;
+  padding-inline-start: 0;
 }
 
 .services__item {
@@ -42,62 +42,30 @@
   }
 }
 
+.services__vector {
+  display: inline-block;
+  margin: auto 0;
+  padding: 10px 15px;
 
+
+  &:hover {
+    background-color: #FFFFFF;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
+}
 
 .services__first {
-  position: relative;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
   border-bottom: none;
   height: 215px;
-
-  &::before {
-    position: absolute;
-    background-image: url("../../images/rightvector.svg");
-    background-repeat: no-repeat;
-    left: -30px;
-    top: 100px;
-    width: 20px;
-    height: 30px;
-    content: "";
-  }
-  
-  &:hover::before {
-    background-color: #FFFFFF;
-  }
-
-  &:hover::before {
-    opacity: 0.6;
-  }
-}
-
-.services__last {
-  position: relative;
-
-  &::after {
-    position: absolute;
-    background-image: url("../../images/leftvector.svg");
-    background-repeat: no-repeat;
-    top: 100px;
-    right: -35px;
-    width: 20px;
-    height: 30px;
-    content: "";
-
-  }
-
-  &:hover:after {
-    background-color: #FFFFFF;
-  }
-
-  &:hover:active {
-    opacity: 0.6;
-  }
-
 }
 
 .services__first-item {
-  margin: 0 30px;
+  margin: 0 48.5px;
   display: flex;
   background-color: #FFFFFF;
   border-radius: 0px 5px 5px 5px;
